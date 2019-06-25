@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30287" started-at="2019-06-24T11:48:08Z" finished-at="2019-06-24T11:48:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30287" started-at="2019-06-24T11:48:08Z" finished-at="2019-06-24T11:48:39Z">
+      <class name="com.framework.flightbooking.FlightTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.framework.flightbooking.FlightTest@13deb50e]" name="init" is-config="true" duration-ms="2110" started-at="2019-06-24T11:48:08Z" finished-at="2019-06-24T11:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.framework.flightbooking.FlightTest@13deb50e]" name="initTest" is-config="true" duration-ms="480" started-at="2019-06-24T11:48:11Z" finished-at="2019-06-24T11:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="bookFlightTest(java.util.Hashtable)[pri:0, instance:com.framework.flightbooking.FlightTest@13deb50e]" name="bookFlightTest" duration-ms="26690" started-at="2019-06-24T11:48:11Z" data-provider="getData" finished-at="2019-06-24T11:48:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, Departure City=Del, Seat=5.0, Arrival City=Goa, To City=New Delhi, Return Date=false, Depart Date=false, Browser=Chrome, Way=Round Trip}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlightTest -->
+        <test-method status="PASS" signature="Quit()[pri:0, instance:com.framework.flightbooking.FlightTest@13deb50e]" name="Quit" is-config="true" duration-ms="930" started-at="2019-06-24T11:48:38Z" finished-at="2019-06-24T11:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- com.framework.flightbooking.FlightTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
